@@ -17,7 +17,6 @@ function App(){
         console.log(list);
         alert("Task: "+todo);
     }
-
     return(
         <div className='App'>
             <h2>TODO-APP</h2>
