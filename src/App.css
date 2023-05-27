@@ -1,12 +1,39 @@
-.App{
-    text-align: center;
+*{
+    box-sizing: border-box;
 }
 
-.task-box{
-    padding: 2px;
+button{
+    font-size: 1.5rem;
+}
 
+.App{
+    align-items: center;
+    border: thick solid coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add-todo{
+    display: flex;
+}
+
+.taskInp{
+    font-size: 1.5rem;
+}
+
+.task{
+    display: flex;
+    padding: 2px;
+    text-align: justify;
+    font-size: 1.5rem;
 }
 
 h2{
     font-family: 'Segoe UI', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display: inline;
 }
