@@ -1,0 +1,18 @@
+.parent{
+    width: 100%;
+    background-color: rgb(238, 255, 0);
+    text-align: center;
+}
+
+button{
+    width: 90px;
+    justify-content: space-around;
+}
+
+button::hover{
+    color: rgb(23, 255, 2);
+}
+
+li{
+    text-decoration: none;
+}

@@ -1,39 +1,68 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-button{
-    font-size: 1.5rem;
+h2,h4 {
+    font-family: monospace;
 }
 
-.App{
-    align-items: center;
-    border: thick solid coral;
+button {
+    font-size: 1.5rem;
+    padding: 5px 10px;
+}
+
+.cardBox{
+    background-image: linear-gradient(rgb(206, 240, 54), rgb(45, 198, 237)) !important;
+}
+
+.add-btn {
+    background-color: rgb(6, 251, 6);
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.del-btn {
+    background-color: red;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.App {
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
-.add-todo{
+.add-todo {
     display: flex;
 }
 
-.taskInp{
+.taskInp {
     font-size: 1.5rem;
 }
 
-.task{
-    display: flex;
-    padding: 2px;
-    text-align: justify;
-    font-size: 1.5rem;
-}
-
-h2{
-    font-family: 'Segoe UI', sans-serif;
-}
-
-ul{
+ul {
     list-style-type: none;
-    display: inline;
+    min-width: 200px;
+}
+
+li {
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 3fr 40px;
+    grid-template-areas: 'text button';
+    padding: 20px;
+    border: 1px solid #9E9E9E;
+}
+
+li>span {
+    grid-area: text;
+    color: #000000;
+}
+
+li>button {
+    grid-area: button;
+    height: 30px;
+    border: none;
 }
