@@ -1,6 +1,12 @@
+.main{
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 .parent{
     width: 100%;
-    background-color: rgb(238, 255, 0);
+    background-color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -14,5 +20,5 @@ button::hover{
 }
 
 li{
-    text-decoration: none;
+    list-style: none;
 }
